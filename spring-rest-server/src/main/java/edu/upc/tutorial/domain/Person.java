@@ -1,5 +1,9 @@
 package edu.upc.tutorial.domain;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+
+@XmlRootElement(name="person")
 public class Person {
 
 	private Long id;
