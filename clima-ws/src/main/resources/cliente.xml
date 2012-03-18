@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="weatherServiceProxy" class="com.mycompany.clima_ws.WeatherServiceProxy">
+		<property name="defaultUri" value="http://localhost:8080/clima-ws/services"/>
+	</bean> 
+
+
+
+	<bean id="client" class="com.mycompany.clima_ws.WeatherServiceClient">
+		<property name="weatherService" ref="weatherServiceProxy"></property>
+	</bean>
+</beans>
