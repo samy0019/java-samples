@@ -1,4 +1,4 @@
-package net.lshimokawa.ejemplos.apachecxf.jaxws;
+package com.mycompany.ejemplos.apachecxf.jaxws;
 
 import javax.jws.WebParam;
 import javax.jws.WebService;
@@ -11,7 +11,7 @@ import javax.jws.WebService;
  * @author lshimokawa
  */
 @WebService
-public interface HelloWorld {
+public interface Hola {
 
 	/**
 	 * Operaci—n del Web Service
