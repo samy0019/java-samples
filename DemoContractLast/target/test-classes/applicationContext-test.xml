@@ -5,7 +5,7 @@
 						http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
 	<!-- Configuración para el test de integración -->
-	<jaxws:client id="helloWorldClient"
+	<jaxws:client id="holaClient"
 		serviceClass="com.mycompany.ejemplos.apachecxf.jaxws.Hola"
 		address="http://localhost:8080/DemoContractLast/hola" />
 
