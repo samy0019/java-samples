@@ -14,6 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class HolaIntegrationTest {
 
 	
+	
 	/**
 	 * Interface del Web Service a probar. La implementaci—n es el proxy de
 	 * Apache CXF que se inyecta mediante Spring. La configuraci—n se encuentra

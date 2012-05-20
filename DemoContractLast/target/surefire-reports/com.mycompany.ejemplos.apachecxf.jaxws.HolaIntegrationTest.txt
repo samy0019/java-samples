@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.033 sec <<< FAILURE!
-testSaludar(com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest)  Time elapsed: 3.677 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.211 sec <<< FAILURE!
+testSaludar(com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest)  Time elapsed: 1.083 sec  <<< ERROR!
 javax.xml.ws.WebServiceException: Could not send Message.
 	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:135)
 	at $Proxy35.saludar(Unknown Source)

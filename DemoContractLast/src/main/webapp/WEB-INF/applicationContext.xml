@@ -6,6 +6,7 @@
 
 	<!-- Configuración del Web Service -->
 
+
 	<!-- Imports necesarios de Apache CXF -->
 	<import resource="classpath:META-INF/cxf/cxf.xml" />
 	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.034" errors="1" skipped="0" tests="1" name="com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest">
+<testsuite failures="0" time="1.212" errors="1" skipped="0" tests="1" name="com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefirebooter4162771007338196744.jar"/>
+    <property name="surefire.real.class.path" value="/Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefirebooter152482396779560436.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/js/5wmqwhy54tb8jpb3zy5wbrlc0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefirebooter4162771007338196744.jar /Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefire1719458082391642612tmp /Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefire695347739834901708tmp"/>
+    <property name="sun.java.command" value="/Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefirebooter152482396779560436.jar /Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefire3887004877062816509tmp /Users/josediaz/Documents/github-java-samples/java-samples/DemoContractLast/target/surefire/surefire7866983516320454612tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="3.677" classname="com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest" name="testSaludar">
+  <testcase time="1.084" classname="com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest" name="testSaludar">
     <error message="Could not send Message." type="javax.xml.ws.WebServiceException">javax.xml.ws.WebServiceException: Could not send Message.
 	at org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:135)
 	at $Proxy35.saludar(Unknown Source)
@@ -151,14 +151,14 @@ Caused by: java.net.ConnectException: Connection refused
 @HL T E S T S
 @HL-------------------------------------------------------
 @SLRunning com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest
-2012-05-20 12:39:04,440 INFO [org.springframework.test.context.TestContextManager] - @TestExecutionListeners is not present for class [class com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest]: using defaults.
-2012-05-20 12:39:04,665 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-test.xml]
-2012-05-20 12:39:05,328 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@19632847: startup date [Sun May 20 12:39:05 PET 2012]; root of context hierarchy
-2012-05-20 12:39:05,583 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7bd33a6b: defining beans [holaClient.proxyFactory,holaClient,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+2012-05-20 12:49:02,982 INFO [org.springframework.test.context.TestContextManager] - @TestExecutionListeners is not present for class [class com.mycompany.ejemplos.apachecxf.jaxws.HolaIntegrationTest]: using defaults.
+2012-05-20 12:49:03,054 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-test.xml]
+2012-05-20 12:49:03,333 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@398825b3: startup date [Sun May 20 12:49:03 PET 2012]; root of context hierarchy
+2012-05-20 12:49:03,387 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e78aa80: defining beans [holaClient.proxyFactory,holaClient,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
 </system-out>
-    <system-err>May 20, 2012 12:39:06 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+    <system-err>May 20, 2012 12:49:03 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
 INFO: Creating Service {http://jaxws.apachecxf.ejemplos.mycompany.com/}HolaService from class com.mycompany.ejemplos.apachecxf.jaxws.Hola
-May 20, 2012 12:39:08 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+May 20, 2012 12:49:04 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
 WARNING: Interceptor for {http://jaxws.apachecxf.ejemplos.mycompany.com/}HolaService#{http://jaxws.apachecxf.ejemplos.mycompany.com/}saludar has thrown exception, unwinding now
 org.apache.cxf.interceptor.Fault: Could not send Message.
 	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
