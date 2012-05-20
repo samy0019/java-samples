@@ -7,7 +7,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
-        <property name="context-root" value="DemoContractLast"/>
         <property name="java-output-path" value="/DemoContractLast/target/classes"/>
+        <property name="context-root" value="apachecxf-jaxws-helloworld"/>
     </wb-module>
 </project-modules>

@@ -11,7 +11,6 @@ import javax.jws.WebService;
  */
 
 
-@SuppressWarnings("restriction")
 @WebService(endpointInterface = "com.mycompany.ejemplos.apachecxf.jaxws.Hola")
 public class HolaImpl implements Hola {
 
