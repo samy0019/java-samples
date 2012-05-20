@@ -8,7 +8,7 @@ import javax.jws.WebService;
  * configuraci—n de Apache CXF se encuentra en el applicationContext.xml dentro
  * del WEB-INF.
  * 
- * @author lshimokawa
+ * @author joedayz
  */
 @WebService
 public interface Hola {

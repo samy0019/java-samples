@@ -12,4 +12,15 @@
 	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
 
 
+	<!-- Bean de Spring que implementa el Web Service -->
+	<bean id="hola" class="com.mycompany.ejemplos.apachecxf.jaxws.HolaImpl" />
+
+	<!-- Configuración de Apache CXF, el implementor es el id del bean de Spring 
+		con # por delante. El address es el endpoint donde se despliega el Web Service. 
+		Hay que considerar también el servlet-mapping donde está configurado el Apache 
+		CXF en el web.xml -->
+	<jaxws:endpoint id="holaEndpoint" implementor="#hola"
+		address="/hola" />
+		
+		
 </beans>
