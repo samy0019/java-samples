@@ -7,11 +7,10 @@
   <version>1.0</version>
   <name>DemoContractLast Maven Webapp</name>
   <url>http://github.com/joedayz/java-samples</url>
-
-  
+ 
  
 	<build>
-		<finalName>apachecxf-jaxws-helloworld</finalName>
+		<finalName>DemoContractLast</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

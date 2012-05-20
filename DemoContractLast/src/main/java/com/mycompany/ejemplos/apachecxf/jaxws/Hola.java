@@ -10,6 +10,7 @@ import javax.jws.WebService;
  * 
  * @author joedayz
  */
+
 @WebService
 public interface Hola {
 

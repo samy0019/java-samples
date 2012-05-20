@@ -2,15 +2,16 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.upc.dsd</groupId>
-  <artifactId>DemoContractLast</artifactId>
+  <artifactId>DemoContractLastClient</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>DemoContractLast Maven Webapp</name>
-  <url>http://github.com/joedayz/java-samples</url>
- 
- 
+  <name>DemoContractLastClient Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+
+
 	<build>
-		<finalName>DemoContractLast</finalName>
+		<finalName>DemoContractLastClient</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -27,8 +28,25 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>3.0.5.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>3.0.5.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.1</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
@@ -58,4 +76,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-</project> 
+</project>
