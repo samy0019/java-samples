@@ -43,7 +43,7 @@ public class HolaServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		request.setAttribute("message", hola.saludar("Pepe"));
-		request.getRequestDispatcher("/WEB-INF/jsp/helloWorld.jsp").forward(
+		request.getRequestDispatcher("/WEB-INF/jsp/hola.jsp").forward(
 				request, response);
 	}
 }

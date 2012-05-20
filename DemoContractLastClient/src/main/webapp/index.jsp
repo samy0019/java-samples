@@ -7,6 +7,8 @@
 </head>
 <body>
 	<h1>Apache CXF JAX-WS</h1>
+	
 	<a href="${pageContext.request.contextPath}/HolaServlet">Link</a>
+	
 </body>
 </html>
