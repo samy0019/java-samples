@@ -17,10 +17,21 @@
 	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
 
 
+	<bean id="movieWebService"
+		class="pe.joedayz.ejemplos.apachecxf.jaxws.MovieWebServiceImpl" />
+
+	<jaxws:endpoint id="movieEndpoint" implementor="#movieWebService"
+		address="/movies" />
+
 	<jdbc:embedded-database id="dataSource">
 		<jdbc:script location="classpath:schema.sql" />
 		<jdbc:script location="classpath:test-data.sql" />
 	</jdbc:embedded-database>
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
 
 
 
