@@ -5,7 +5,7 @@
 	<artifactId>demo-spring-jdbc-crud</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<url>http://joedayz.pe</url>
+	<url>http://github.com/joedayz/java-samples</url>
 
 
 
@@ -31,12 +31,12 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
-			<version>3.0.5.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
-			<version>3.0.5.RELEASE</version>
+			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hsqldb</groupId>
@@ -57,7 +57,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>3.0.5.RELEASE</version>
+			<version>${spring.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

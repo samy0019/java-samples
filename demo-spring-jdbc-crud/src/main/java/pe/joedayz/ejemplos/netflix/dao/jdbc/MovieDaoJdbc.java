@@ -13,7 +13,6 @@ import org.springframework.stereotype.Repository;
 
 import pe.joedayz.ejemplos.netflix.dao.MovieDao;
 import pe.joedayz.ejemplos.netflix.model.Movie;
-import pe.joedayz.ejemplos.netflix.service.impl.MovieServiceImpl;
 
 
 
