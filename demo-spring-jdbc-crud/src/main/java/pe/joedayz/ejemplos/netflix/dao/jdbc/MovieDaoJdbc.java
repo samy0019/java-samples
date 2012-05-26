@@ -21,7 +21,7 @@ import pe.joedayz.ejemplos.netflix.model.Movie;
  * @author joedayz
  * 
  */
-@Repository
+@Repository("mijdbc")
 public class MovieDaoJdbc extends SimpleJdbcDaoSupport implements MovieDao {
 
 	private Logger logger = Logger.getLogger(MovieDaoJdbc.class);

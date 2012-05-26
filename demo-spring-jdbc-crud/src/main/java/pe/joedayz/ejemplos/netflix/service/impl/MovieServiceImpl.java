@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -23,7 +24,9 @@ import pe.joedayz.ejemplos.netflix.service.MovieService;
 public class MovieServiceImpl implements MovieService {
 
 	private Logger logger = Logger.getLogger(MovieServiceImpl.class);
-	@Autowired
+	
+	@Autowired 
+	@Qualifier("mijdbc")
 	private MovieDao movieDao;	
 	
 	@Override
