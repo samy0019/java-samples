@@ -18,6 +18,8 @@ import pe.joedayz.ejemplos.spring_hibernate_mysql.service.PersonService;
 
 /**
  * Handles and retrieves person request
+ * 
+ * http://localhost:8080/spring-hibernate-mysql/joedayz/main/persons
  */
 @Controller
 @RequestMapping("/main")
