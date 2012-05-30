@@ -1,5 +1,7 @@
 package pe.joedayz.ejemplos.cxf;
 
+import java.util.List;
+
 import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
@@ -25,4 +27,7 @@ public interface HolaMundo {
      */
     @WebResult(name="persona")
     Persona buscarPersona(@WebParam(name="legajo") long legajo);
+    
+    @WebResult(name="personas")
+    List<Persona> obtenerPersonas();
 }

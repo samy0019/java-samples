@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,5 +55,19 @@ public class ClienteHolaMundoTest {
         assertNotNull(result.getNombre());
         assertTrue(!result.getNombre().isEmpty());
     }
+    
+    
+    /**
+     * Test of buscarPersona method, of class HolaMundo.
+     */
+    @Test
+    public void testObtenerPersona() {
+        System.out.println("obtenerPersonas");
+
+        List<Persona> result = instance.obtenerPersonas();
+
+        assertNotNull(result);
+
+    }    
 
 }
